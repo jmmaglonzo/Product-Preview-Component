@@ -1,0 +1,109 @@
+@media (max-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.main .card {
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 60rem;
+}
+.main .card .left-image {
+  flex: 1.2;
+}
+.main .card .left-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main .card .content {
+  padding: 3rem;
+  flex: 1;
+}
+.main .card .content .product {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: hsl(228, 12%, 48%);
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.main .card .content .heading {
+  font-family: "Fraunces", serif;
+  font-size: 3.4rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1;
+  color: hsl(212, 21%, 14%);
+  margin-bottom: 2rem;
+}
+.main .card .content .description {
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  line-height: 1.7;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+.main .card .content .price {
+  display: flex;
+  align-items: center;
+}
+.main .card .content .price h3 {
+  font-family: "Fraunces", serif;
+  font-size: 3rem;
+  color: #3c8067;
+  margin-right: 2rem;
+}
+.main .card .content .price p {
+  font-size: 1.5rem;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  font-family: "Montserrat", sans-serif;
+}
+.main .card .content .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.main .card .content .button a {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3c8067;
+  text-decoration: none;
+  color: #fff;
+  padding: 1.4rem 8rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: all ease 0.3s;
+}
+.main .card .content .button a:hover {
+  background-color: #193d30;
+}
+.main .card .content .button a i {
+  margin-right: 1rem;
+}/*# sourceMappingURL=style.css.map */
